@@ -1,0 +1,476 @@
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+[role=button], a, button, input[type=button], input[type=reset], input[type=submit] {
+    cursor: pointer;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+button, input[type=email], input[type=file], input[type=number], input[type=password], input[type=submit], input[type=tel], input[type=text], option, select, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+ol, ul {
+    list-style: none;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body, html {
+    line-height: 1;
+    font-family: "Pretendard Variable", "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif;
+    font-size: 13px;
+}
+svg {
+    width: 88;
+    height: 31;
+}
+
+label {
+    cursor: default;
+}
+
+.css-751{
+    height: 100%;
+}
+.css-tbdbun {
+    padding-top: 40px;
+    width: calc(100% - 30px);
+    margin: auto;
+}
+
+.css-5bso4y {
+    width: 100%;
+    margin: 0px auto;
+    padding: 60px 0px;
+}
+
+@media (min-width: 768px) {
+    .css-5bso4y {
+        width: 360px;
+    }
+}
+
+.css-1pmd5bp {
+    font-size: 20px;
+    font-weight: bold;
+}
+.css-1sm71m3 {
+    margin: 30px 0px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.css-1mld7di {
+    font-size: 12px;
+    text-align: center;
+    margin: 15px 0px;
+    color: rgb(117, 117, 117);
+}
+.css-zl1inp {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.css-lbtgsv {
+    margin: 0px 10px;
+}
+.css-4zleql {
+    display: block;
+}
+.css-nv82x6 {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: rgb(47, 52, 56);
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+.email-input {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex
+;
+}
+
+
+.email-input__domain, .email-input__local {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0px;
+    -moz-box-flex: 1;
+    -moz-flex: 1 1 0px;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0px;
+}
+.email-input__domain .form-control, .email-input__local .form-control {
+    width: 100%;
+}
+.css-1eufcdp .form-control {
+    font-size: 15px;
+}
+.email-input__domain .form-control-blind, .email-input__local .form-control-blind {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+.email-input__separator {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 20px;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 20px;
+    -ms-flex: 0 0 20px;
+    flex: 0 0 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #dbdbdb;
+}
+
+.email-input.errored .form-control {
+    border-color: #f77;
+}
+
+.email-input__domain__expand {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background: none;
+    border: none;
+    font-size: 0;
+    cursor: default;
+    color: rgba(0, 0, 0, .3);
+}
+
+.css-1voj95g {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(255, 119, 119);
+}
+.form-control {
+    transition: border-color .2s, box-shadow .2s, background-color .2s;
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    line-height: 40px;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: #424242;
+    font-size: 12px;
+}
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+.css-1t0swn9 {
+    margin-bottom: 30px;
+    padding-top: 2px;
+}
+.css-16ou9ef.css-16ou9ef {
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    background: #f7f8fa;
+    color: #c2c8cc;
+    border-color: #dadce0;
+}
+._27do9 {
+    padding: 15px 10px;
+    line-height: 20px;
+    font-size: 17px;
+    min-height: 50px;
+}
+._1eWD8 {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    display: inline-flex
+;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background: none;
+    font-family: Noto Sans KR, Noto Sans CJK KR, 맑은 고딕, Malgun Gothic, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    transition: color .1s, background-color .1s, border-color .1s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.css-1kfo0kb {
+    margin-bottom: 30px;
+}
+.css-nv82x6 {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+.css-18zgq8s {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828C94;
+    letter-spacing: -0.3px;
+}
+._3ASDR {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 8px 15px 9px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Noto Sans KR, Noto Sans CJK KR, 맑은 고딕, Malgun Gothic, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    transition: border-color .1s, background-color .1s;
+    resize: none;
+    -webkit-appearance: none;
+}
+.css-oyhedo {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+.css-nv82x6 {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+.css-9kms4c {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+.css-53y8n8 {
+    padding: 18px;
+    border: 1px solid #EAEDEF;
+}
+.css-127yl2f {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+.css-xbe84c {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.css-xe5vxm {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #E6E6E6;
+    background-color: #FFFFFF;
+    -webkit-transition: border-color 0.1s, background-color 0.1s;
+    transition: border-color 0.1s, background-color 0.1s;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.css-edbsi7 {
+    position: absolute;
+    overflow: hidden;
+    top: 3.6px;
+    left: 3px;
+    width: 0px;
+    height: 12px;
+    -webkit-transition: width 0.2s 0.1s;
+    transition: width 0.2s 0.1s;
+}
+.css-1jxc35f {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    vertical-align: top;
+    color: #FFFFFF;
+}
+.css-1jxc35f::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+._check_12:before {
+    content: "\e958";
+}
+.css-8um586 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+.css-lc8zlb {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 6px;
+    color: #2F3438;
+}
+.css-tf2f5r {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+.css-10odp2i {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #828C94;
+}
+.css-1ub9td3 {
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    border: none;
+    background-color: #EAEDEF;
+    margin: 18px 0;
+}
+.css-xe5vxm {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #E6E6E6;
+    background-color: #FFFFFF;
+    -webkit-transition: border-color 0.1s, background-color 0.1s;
+    transition: border-color 0.1s, background-color 0.1s;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.css-edbsi7 {
+    position: absolute;
+    overflow: hidden;
+    top: 3.6px;
+    left: 3px;
+    width: 0px;
+    height: 12px;
+    -webkit-transition: width 0.2s 0.1s;
+    transition: width 0.2s 0.1s;
+}
+.css-1jxc35f {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    vertical-align: top;
+    color: #FFFFFF;
+}
+.css-1jxc35f::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+._check_12:before {
+    content: "\e958";
+}
+.css-rekkrg {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+}
+.css-rekkrg:after {
+    content: "(필수)";
+    display: inline-block;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0AA5FF;
+}
+.css-127yl2f+.css-127yl2f {
+    margin-top: 20px;
+}
+.css-1afr2ti {
+    margin-left: 8px;
+    color: #2F3438;
+}
+.css-qu4qo8 {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1;
+}
+.css-qu4qo8::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+._chevron_right_18:before {
+    content: "\e969";
+}
+.css-eivff4 {
+    display: none;
+}
+.css-1d3w5wq {
+    width: 100%;
+}
